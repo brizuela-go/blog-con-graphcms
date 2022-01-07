@@ -2,14 +2,15 @@ import "animate.css";
 import { FeaturedPosts } from "../sections/index";
 import { PostCard, Categories, PostWidget } from "../components";
 import { getPosts } from "../services";
+import { Key } from "react";
 
-export default function Home({ posts }) {
+export default function Home({ posts }: { posts: any }) {
   return (
     <div className="container mx-auto px-10 mb-8 animate__animated animate__fadeInUp animate__delay-1s">
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
-          {posts.map((post, index) => (
+          {posts.map((post: { node: any }, index: Key | null | undefined) => (
             <PostCard key={index} post={post.node} />
           ))}
         </div>
