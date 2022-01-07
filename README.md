@@ -1,10 +1,8 @@
 # Blog creado con React.js, [GraphCMS](https://graphcms.com/), [GraphQL](https://graphql.org/), [NextJS](https://nextjs.org/) y [Tailwind CSS](https://tailwindcss.com/)
 
-# bruh
-
-![This is an image](public\ss1.png)
-![This is an image](public\ss2.png)
-![This is an image](public\ss3.png)
+<img src="public\ss1.png" />
+<img src="public\ss2.png" />
+<img src="public\ss3.png" />
 
 <p  align="center">
 
