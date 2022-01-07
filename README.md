@@ -1,3 +1,11 @@
+# Blog creado con React.js, [GraphCMS](https://graphcms.com/), [GraphQL](https://graphql.org/), [NextJS](https://nextjs.org/) y [Tailwind CSS](https://tailwindcss.com/)
+
+# bruh
+
+![This is an image](public\ss1.png)
+![This is an image](public\ss2.png)
+![This is an image](public\ss3.png)
+
 <p  align="center">
 
 <img  src="https://res.cloudinary.com/ddcg0rzlo/image/upload/v1640340715/nextjs-tailwind-typescript-banner_vslgq4.png"  alt="Next.js TypeScript Starter">
