@@ -6,7 +6,7 @@ import { Key } from "react";
 
 export default function Home({ posts }: { posts: any }) {
   return (
-    <div className="container mx-auto px-10 mb-8 animate__animated animate__fadeInUp animate__delay-1s">
+    <div className="container mx-auto px-10 mb-8 animate__animated animate__fadeInUp">
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
