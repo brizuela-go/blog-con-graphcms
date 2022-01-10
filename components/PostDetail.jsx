@@ -55,6 +55,18 @@ const PostDetail = ({ post }) => {
             src={obj.src}
           />
         );
+      case "iframe":
+        return (
+          <iframe
+            key={index}
+            className="responsive-iframe lg:w-96 lg:h-60 pt-6 lg:m-20 lg:scale-150 lg:ml-56 
+                        md:w-96 md:h-60 md:m-20 md:scale-150 md:ml-32
+                          "
+            src={obj.url}
+            title={obj.title}
+            frameborder="0"
+          ></iframe>
+        );
       default:
         return modifiedText;
     }
