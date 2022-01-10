@@ -64,7 +64,6 @@ const PostDetail = ({ post }) => {
                           "
             src={obj.url}
             title={obj.title}
-            frameborder="0"
           ></iframe>
         );
       default:
